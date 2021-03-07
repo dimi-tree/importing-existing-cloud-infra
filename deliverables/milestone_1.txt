@@ -1,0 +1,33 @@
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "user-00-terraform",
+            "UserId": "AIDAVQDOGE4XXXXXXXXXX",
+            "Arn": "arn:aws:iam::0123456789012:user/user-00-terraform",
+            "CreateDate": "2021-03-07T11:27:48+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "user-01-terraform",
+            "UserId": "AIDAVQDOGE4XXXXXXXXXX",
+            "Arn": "arn:aws:iam::0123456789012:user/user-01-terraform",
+            "CreateDate": "2021-03-07T11:28:59+00:00"
+        },
+        ...
+        {
+            "Path": "/",
+            "UserName": "user-98-terraform",
+            "UserId": "AIDAVQDOGE4XXXXXXXXXX",
+            "Arn": "arn:aws:iam::0123456789012:user/user-98-terraform",
+            "CreateDate": "2021-03-07T11:28:16+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "user-99-terraform",
+            "UserId": "AIDAVQDOGE4XXXXXXXXXX",
+            "Arn": "arn:aws:iam::0123456789012:user/user-99-terraform",
+            "CreateDate": "2021-03-07T11:27:27+00:00"
+        }
+    ]
+}
