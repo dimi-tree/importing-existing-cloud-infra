@@ -1,2 +1,5 @@
+# https://www.terraform.io/docs/cli/commands/taint.html
+
+
 # https://www.terraform.io/docs/cli/commands/apply.html
 > terraform apply -target='module.users["user-00"].aws_iam_user.user'
