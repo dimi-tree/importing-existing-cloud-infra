@@ -1,0 +1,23 @@
+# https://www.terraform.io/docs/cli/commands/import.html
+> terraform import 'module.users.aws_iam_user.user["user-00"]' user-00-terraform
+
+# Importing the resource to match the state created by Terraform
+> terraform import 'module.users["user-03"].aws_iam_user.user["user-03"]' user-03-terraform
+
+# https://www.terraform.io/docs/cli/commands/state/rm.html
+> terraform state rm 'module.users.aws_iam_user.user["user-02"]'
+
+> terraform state list
+module.users.aws_iam_user.user["user-00"]
+module.users.aws_iam_user.user["user-01"]
+module.users["user-03"].aws_iam_user.user["user-03"]
+
+# The correct way
+> terraform import 'module.users["user-00"].aws_iam_user.user' user-00-terraform
+
+
+# https://www.terraform.io/docs/cli/commands/show.html
+> terraform show
+
+
+# https://www.terraform.io/docs/language/state/locking.html
