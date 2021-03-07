@@ -21,3 +21,6 @@ module.users["user-03"].aws_iam_user.user["user-03"]
 
 
 # https://www.terraform.io/docs/language/state/locking.html
+> terraform apply
+...
+> terraform apply -lock=false
