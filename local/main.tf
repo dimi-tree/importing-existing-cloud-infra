@@ -16,9 +16,9 @@ provider "aws" {
 
 // create 100 users
 module "users" {
-  source = "./modules/cloudesk-user/"
+  source = "../modules/cloudesk-user/"
   for_each = toset([
-    for i in range(100) : format("user-%02d", i)
+    for i in range(10) : format("local-%02d", i)
   ])
 
   name = each.key
@@ -26,4 +26,13 @@ module "users" {
   providers = {
     aws = aws
   }
+}
+
+module "s3backend" {
+  source = "../modules/s3backend/"
+  namespace     = "cloudesk"
+}
+ 
+output "s3backend_config" {
+  value = module.s3backend.config
 }
