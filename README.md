@@ -1,5 +1,9 @@
 # LiveProject: Importing Existing Cloud Infrastructure into Terraform
 
+- [liveProjec repo](https://github.com/DeviaVir/manning-importing-cloud-infra-into-terraform)
+- [milestone 4](https://github.com/DeviaVir/manning-importing-cloud-infra-into-terraform-m4)
+- [milestone 5](https://github.com/DeviaVir/terraform-provider-aws/commit/5f40d809adefd18b99516bca89e705b8e51cbdc9)
+
 ### Requirements
 
 * Terraform version >= 0.13.0
